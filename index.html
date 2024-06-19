@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thirukural</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body onload="search()">
+    <nav class="topbar">
+        <h4 class="title">திருக்குறள்</h4>
+    </nav>
+    <div class="container outer">
+        <div class="search">
+            <h3 class="searchtext">Search</h3>
+            <input type="text" id="myText" class="form-control" placeholder="Kural Number">
+            <button type="button" onclick="search()" class="btn btn-success">Search</button>
+        </div>
+    </div>
+    <div class="btns">
+        <button class="navi" onclick="previous()">Previous</button>
+        <button class="navi1" onclick="next()">Next</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

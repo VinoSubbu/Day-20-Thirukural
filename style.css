@@ -1,0 +1,108 @@
+body{
+    font-family: 'Poppins';
+}
+h5{
+    color: crimson;
+}
+small{
+    color:black;
+}
+.topbar{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70px;
+}
+.title{
+    color:white;
+}
+
+.outer{
+    margin-top: 30px;
+}
+.searchtext{
+    color:teal;
+    margin-right: 20px;
+}
+.search{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+#myText{
+    width:120px;
+    text-align: center;
+    margin-right: 20px;
+}
+.tamil,.english{
+    font-weight: bold;
+}
+.kuraldiv{
+    background-color: white;
+    box-shadow: 10px 10px 5px rgba(14, 6, 6, 0.1);
+    box-shadow: 5px 10px 5px rgba(14, 6, 6, 0.1);
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 20px;
+    color:black;
+    text-align: center;
+}
+.detail,.meaning{
+    background-color: white;
+    box-shadow: 10px 10px 5px rgba(14, 6, 6, 0.1);
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 20px;
+    color: black;
+}
+.detail{
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.tammean{
+    margin-bottom: 20px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 40px;
+}
+.btns{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.navi,.navi1{
+    width:70px;
+    padding: 5px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.navi1{
+    background-color: chartreuse;
+}
+
+
+@media screen and (max-width:500px) {
+    .searchtext{
+        font-size: 1.5em;
+    }
+    .content{
+        grid-template-columns: 1fr;
+    }
+    .kural1,.kural2{
+        font-size: 1em;
+    }
+}
